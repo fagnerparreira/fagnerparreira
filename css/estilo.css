@@ -5,9 +5,7 @@
 	padding: 0;
 }
 
-
 /*cinza escuro #979696*/
-
 body {
 	font-size: 1em;
 	font-family: "trebuchet MS", Helvetica, sans-serif;
@@ -15,13 +13,11 @@ body {
 }
 
 /*layout*/
-
 #cabecalho {
 	background: #979696;
 	text-align: center;
 	padding: 15px;
 }
-
 #logo, #menu {
 	padding: 10px;
 }
@@ -29,8 +25,6 @@ body {
 #principal {
 	width: 920px;
 	margin:  0 auto;
-	
-
 }
 
 #postagens {
@@ -54,9 +48,6 @@ body {
 	padding: 10px;
 }
 
-
-
-
 #rodape {
 		text-align: center;
 		padding: 10px;
@@ -64,19 +55,15 @@ body {
 		clear: both;
 }
 
-
-
 .vermelho {
 	color: #ab3131;
 }
-
-
-
 
 /*menu de navegação*/
 
 a{
 	text-decoration: none;
+	padding: 10px;
 }
 
 #cabecalho a:link, #cabecalho a:visited {
@@ -127,5 +114,5 @@ p {
 
 .img-post {
 	width: 300px;
-  
+	padding:  10px 75px;
 }

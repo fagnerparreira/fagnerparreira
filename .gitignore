@@ -11,3 +11,6 @@ opa-debug-js
 *.api-txt
 *.exe
 *.log
+css/estilo.css
+index.html
+*.html
