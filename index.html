@@ -4,38 +4,56 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	    <!--FONT AWESOME  -->
+			<script src="https://kit.fontawesome.com/e4f5e172d0.js" crossorigin="anonymous"></script>
+
+	 <link rel="stylesheet" type="text/css" href="css/estilo2.css"> 
+
 	<title>Fagner Parreira</title>
 </head>
 
 <body>
-	<div id="cabecalho">
-		<div id="logo">
-			<h1><span class="vermelho">Fagner</span> <span>Parreira</span></h1>
-		</div>
-
-		<div id="menu">
-			<a href="#">Sobre </a>
-			<a href="#">Serviços</a>
-			<a href="#">Contato</a>
-		</div>
-	</div><!--fim div cabeçalho -->
-
-	<div id="principal"><!--inicico div principal -->
-		<div id="postagens">
-			<div class="post">
-				<h2>DEV em Formação</h2>
-				<br>
-				<img src="img/Fot (671).jpg" class="img-post">
-				<p></p>
-				<a href=""></a>
-			</div>
-		</div>	<!--fim div postagens -->
+	<header>
+		<nav class=" navbar navbar-expand navbar-light ">
 	
-		<div id="menu-lateral">
-			<h3>Sobre </h3>
-			<div class="lateral-conteudo">
-				<p>Olá Meu nome é Fágner sou estudante de Análise e Desenvolvimeto de Sistemas,
+			<div class="container corrr" >
+				<a class="navbar-brand" href="#">
+					<img src="img/parreira-logo.png" alt="" width="110">
+				</a>
+
+				<div id="nav-principal">
+						<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sobre </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Serviços</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contato</a>
+				</li>
+						</ul>
+			</div> <!--fim de navegação principal-->
+			</div>
+		</nav>
+	</header>
+
+<section class="bg-secondary text-white">
+
+	<div class="container" ><!--inicico div principal -->
+		<div class="row">
+			<div class="col-md-5 d-none d-md-block me-auto d-flex align-content-around flex-wrap">
+				<h2 class="display-7">DEV. em Formação</h2>
+				<br>
+				<img src="img/Fot (671).jpg" width="250px" >
+			</div>
+	
+			<div class="col-md-6  me-auto   "><!--inicio div lateral -->	
+				<h3 class="display-4">Sobre </h3>
+				<p class="justi">Olá Meu nome é Fágner sou estudante de Análise e Desenvolvimeto de Sistemas,
 					amo estudar tecnologias, sou muito curioso com coisas novas e principalmente o porque delas.
 					Estou no quarto semestre, de Análise e Desenvolvimento de Sistemas pela
 					Faculdade Estácio. Possuo bons conhecimentos em Html, CSS, javascript, git,
@@ -43,34 +61,97 @@
 					Possuo sólidos conhecimentos no pacote MS Office (Excel, PowerPoint e
 					Word), Montagem e Configurações em Geral de Computadores.
 				</p>
-				<a href=""></a>
-			</div>
-
-			<div class="lateral-conteudo">
-				<h2>SKILLS</h2>
+			
+				<h2 class="display-5">SKILLS</h2>
 				<br>
 				<p>Html, CSS, Javascript, bootstrap, Jquery. </p>
 				<br>
-				<a href=""></a>
-			</div>
-
-			<div>
+			
 				<h3>Categorias</h3>
 				<br>
-				<a href="">Sobre </a> <br>
-				<a href="">Serviços</a> <br>
-				<a href="">Contato</a> <br>
-				<br>
-				<br>
-			</div>
-		</div><!--fim div menu-lateral -->
-	
-		<div id="rodape">
-			<h4>Todos os direitos reservados <br>
-				Fagner Parreira </h4>
-		</div><!--fim div rodape -->
-
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+					</li>
+							</ul>
+			</div>	<!--fim div lateral -->	
+		</div><!--fim div row -->
 	</div> <!-- Fim div principal-->
+
+</section>
+<footer class="mt-4 mb-4 corrr"><!-- inicio div footer-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8"> <!-- div navegação rodape-->
+				<nav class=" navbar navbar-expand navbar-light ">
+	
+					<div class="container corrr" >
+				
+						<div id="nav-principal">
+								<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sobre </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Serviços</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contato</a>
+						</li>
+								</ul>
+					</div> <!--fim de navegação principal-->
+					</div>
+				</nav>
+		</div><!--final div navegação rodape-->
+			
+			<div class="col-md-4 d-flex justify-content-end">  <!-- div redes sociais-->
+				<p>
+					<a href="#" class=" btn btn-outline-dark fa-2x">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+					<a href="#" class=" btn btn-outline-dark fa-2x">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+					<a href="#" class=" btn btn-outline-dark fa-2x">
+						<i class="fab fa-instagram-square"></i>
+					</a>
+					<a href="#" class=" btn btn-outline-dark fa-2x">
+						<i class="fab fa-whatsapp-square"></i>
+					</a>
+				</p>
+			</div><!--Fim div redes sociais-->
+		</div><!--Fim div row-->
+
+		<div class="row ">  
+			<h4 class="display-4 fs-3 d-flex justify-content-center">
+				Desenvolvido por Fagner Parreira
+			</h4>
+
+		</div>
+
+	</div><!--Fim div container-->
+</footer>
+
+
+	
+	
+
+	 <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
