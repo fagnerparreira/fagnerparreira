@@ -1,160 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-	    <!--FONT AWESOME  -->
-			<script src="https://kit.fontawesome.com/e4f5e172d0.js" crossorigin="anonymous"></script>
-
-	 <link rel="stylesheet" type="text/css" href="css/estilo2.css"> 
-
-	<title>Fagner Parreira</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fagner Parreira | Full Stack & Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
-
 <body>
-	<header>
-		<nav class=" navbar navbar-expand navbar-light ">
-	
-			<div class="container corrr" >
-				<a class="navbar-brand" href="#">
-					<img src="img/parreira-logo.png" alt="" width="110">
-				</a>
+  <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
 
-				<div id="nav-principal">
-						<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="https://fagnerparreira.github.io/fagnerparreira">Sobre </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://fagnerparreira.github.io/fagnerparreira">Serviços</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.linkedin.com/in/fagner-parreira">Contato-Linkendin</a>
-				</li>
-						</ul>
-			</div> <!--fim de navegação principal-->
-			</div>
-		</nav>
-	</header>
+  <header class="site-header" id="inicio">
+    <div class="container header-wrap">
+      <a href="#inicio" class="brand" aria-label="Início">
+        <span class="brand-mark">FNP</span>
+        <span class="brand-text">Fágner Nogueira</span>
+      </a>
 
-<section class="bg-secondary text-white">
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
 
-	<div class="container" ><!--inicico div principal -->
-		<div class="row">
-			<div class="col-md-5 d-none d-md-block me-auto d-flex align-content-around flex-wrap">
-				<h2 class="display-7"></h2>
-				<br>
-				<img src="img/Fot (671).jpg" width="250px" >
-			</div>
-	
-			<div class="col-md-6  me-auto   "><!--inicio div lateral -->	
-				<h3 class="display-4">Sobre </h3>
-				<p class="justi">
-					
-					Programador a procura de novos desafios em que possa realizar o gerenciamento
-da carreira, e assim colocar meus conhecimentos e expertises em prática resolvendo soluções .<br /><br />
-					Programmer looking for new challenges in which he can manage
-career, and thus put my knowledge and expertise into practice by solving solutions.
-.
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#certificacoes">Certificações</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-					
-				</p>
-			
-				<h2 class="display-5">SKILLS</h2>
-				<br>
-				<p>Html, CSS, Javascript, bootstrap, Jquery, Git, GitHub, Php,
-					Mysql Workbench, Mysql, SQL Server. </p>
-				<br>
-			
-				<h3>Categorias</h3>
-				<br>
-				<ul class="navbar-nav  ">
-					<li class="nav-item">
-						<a class="nav-link linksa" href="https://fagnerparreira.github.io/fagnerparreira">Sobre </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link linksa" href="https://fagnerparreira.github.io/fagnerparreira">Serviços</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link linksa" href="https://www.linkedin.com/in/fagner-parreira">Contato-Linkendin</a>
-					</li>
-							</ul>
-			</div>	<!--fim div lateral -->	
-		</div><!--fim div row -->
-	</div> <!-- Fim div principal-->
+      <div class="social-head">
+        <a href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/fagner-parreira" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </header>
 
-</section>
-<footer class="mt-4 mb-4 corrr"><!-- inicio div footer-->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8"> <!-- div navegação rodape-->
-				<nav class=" navbar navbar-expand navbar-light ">
-	
-					<div class="container corrr" >
-				
-						<div id="nav-principal">
-								<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="https://fagnerparreira.github.io/fagnerparreira">Sobre </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://fagnerparreira.github.io/fagnerparreira">Serviços</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://www.linkedin.com/in/fagner-parreira">Contato-Linkendin</a>
-						</li>
-								</ul>
-					</div> <!--fim de navegação principal-->
-					</div>
-				</nav>
-		</div><!--final div navegação rodape-->
-			
-			<div class="col-md-4 d-flex justify-content-end">  <!-- div redes sociais-->
-				<p>
-					<!-- <a href="#" class=" btn btn-outline-dark fa-2x">
-						<i class="fab fa-facebook-square"></i>
-					</a> -->
-					<!-- <a href="#" class=" btn btn-outline-dark fa-2x">
-						<i class="fab fa-twitter-square"></i> -->
-					</a>
-					<a href="https://www.instagram.com/fagnerparreira" class=" btn btn-outline-dark fa-2x">
-						<i class="fab fa-instagram-square"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/fagner-parreira" class=" btn btn-outline-dark fa-2x">
-						<i class="fab fa-linkedin-in"></i>
-					</a>
-				</p>
-			</div><!--Fim div redes sociais-->
-		</div><!--Fim div row-->
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <figure class="hero-photo">
+          <img src="assets/img/profile.jpg" alt="Foto profissional de Fágner Nogueira Parreira" loading="eager" fetchpriority="high">
+          <figcaption>initializing_portfolio.exe</figcaption>
+        </figure>
+        <div class="hero-copy">
+          <p class="kicker">Full Stack & Cloud Engineer</p>
+          <h1>Fágner Nogueira Parreira</h1>
+          <p class="subtitle">Desenvolvedor com experiência em aplicações web, APIs REST, cloud, DevOps e ambientes corporativos.</p>
+          <ul class="chip-list" aria-label="Stack principal">
+            <li>Angular</li><li>Spring Boot</li><li>Azure</li><li>PostgreSQL</li><li>DevOps</li>
+          </ul>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projetos">Ver Projetos</a>
+            <a class="btn btn-ghost" href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/fagner-parreira" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <button class="btn btn-ghost" type="button" disabled aria-disabled="true">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<div class="row ">  
-			<h4 class="display-4 fs-3 d-flex justify-content-center">
-				Desenvolvido por Fagner Parreira
-			</h4>
+    <section id="skills" class="section">
+      <div class="container panel">
+        <h2>Tecnologias</h2>
+        <div class="tech-grid">
+          <article class="tech-card">Angular</article><article class="tech-card">TypeScript</article><article class="tech-card">Java</article>
+          <article class="tech-card">Spring Boot</article><article class="tech-card">PostgreSQL</article><article class="tech-card">Azure</article>
+          <article class="tech-card">Docker</article><article class="tech-card">Git</article><article class="tech-card">Linux</article>
+          <article class="tech-card">Azure DevOps</article><article class="tech-card">GitHub</article><article class="tech-card">REST APIs</article>
+        </div>
+      </div>
+    </section>
 
-		</div>
+    <section id="projetos" class="section"><div class="container panel"><h2>Projetos</h2></div></section>
+    <section id="sobre" class="section"><div class="container panel"><h2>Sobre Mim</h2></div></section>
+    <section id="experiencia" class="section"><div class="container panel"><h2>Experiência</h2></div></section>
+    <section id="certificacoes" class="section"><div class="container panel"><h2>Certificações</h2></div></section>
+    <section id="github" class="section"><div class="container panel"><h2>GitHub Stats</h2></div></section>
+  </main>
 
-	</div><!--Fim div container-->
-</footer>
+  <footer id="contato" class="site-footer">
+    <div class="container footer-wrap">
+      <a href="mailto:fagnerparreira1@gmail.com">fagnerparreira1@gmail.com</a>
+      <a href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/fagner-parreira" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span>Brasília, Brazil</span>
+    </div>
+    <p class="footer-quote">Wake up, developer. The code is real.</p>
+  </footer>
 
-
-	
-	
-
-	 <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+  <script src="js/main.js" defer></script>
 </body>
-
 </html>

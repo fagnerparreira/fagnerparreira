@@ -1,1 +1,33 @@
-/* Breakpoints reserved for responsive refinements */
+@media (max-width: 1024px) {
+  .main-nav { gap: .55rem; }
+  .tech-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle { display: inline-block; }
+  .main-nav {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+    padding: .8rem 1rem 1rem;
+    border-bottom: 1px solid var(--border-glow);
+    background: rgba(3, 8, 5, 0.98);
+    flex-direction: column;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .2s ease;
+  }
+  .main-nav.is-open { transform: scaleY(1); }
+  .social-head { display: none; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-photo { max-width: 320px; }
+  .tech-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .container { width: min(100% - 1rem, var(--max-width)); }
+  .panel { padding: 1rem; }
+  .tech-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero-cta .btn { width: 100%; text-align: center; }
+}
