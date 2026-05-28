@@ -1,0 +1,10 @@
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Rajdhani", "Segoe UI", sans-serif;
+}
+
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
