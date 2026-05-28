@@ -16,7 +16,9 @@ Atuação em desenvolvimento full stack, cloud, operações e ambientes corporat
 ---
 
 ## Sobre mim
-Atuo na interseção entre desenvolvimento e operações: construção de frontends corporativos, APIs backend, integração com banco de dados e sustentação de ambientes críticos. Minha experiência inclui troubleshooting, monitoramento NOC, suporte operacional, governança e melhoria contínua, com foco em confiabilidade, manutenção e resposta eficiente a incidentes.
+Atuo com desenvolvimento full stack, infraestrutura e operações de TI, participando da construção e manutenção de aplicações web, APIs REST e ambientes corporativos.
+Tenho experiência com Angular, Spring Boot, PostgreSQL, Azure e integração entre frontend e backend, além de atuação em monitoramento NOC, troubleshooting e suporte a ambientes críticos.
+Busco desenvolver soluções organizadas, estáveis e fáceis de manter, sempre com foco em performance, confiabilidade e melhoria contínua.
 
 ---
 
