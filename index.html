@@ -22,21 +22,10 @@
         <span class="brand-mark">FNP</span>
         <span class="brand-text">Fágner Nogueira</span>
       </a>
-
-      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
-
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
       <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#certificacoes">Certificações</a>
-        <a href="#contato">Contato</a>
+        <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#skills">Skills</a><a href="#projetos">Projetos</a><a href="#experiencia">Experiência</a><a href="#certificacoes">Certificações</a><a href="#contato">Contato</a>
       </nav>
-
       <div class="social-head">
         <a href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
         <a href="https://www.linkedin.com/in/fagner-parreira" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
@@ -46,7 +35,7 @@
 
   <main id="main-content">
     <section class="hero section">
-      <div class="container hero-grid">
+      <div class="container hero-grid panel">
         <figure class="hero-photo">
           <img src="assets/img/profile.jpg" alt="Foto profissional de Fágner Nogueira Parreira" loading="eager" fetchpriority="high">
           <figcaption>initializing_portfolio.exe</figcaption>
@@ -55,9 +44,7 @@
           <p class="kicker">Full Stack & Cloud Engineer</p>
           <h1>Fágner Nogueira Parreira</h1>
           <p class="subtitle">Desenvolvedor com experiência em aplicações web, APIs REST, cloud, DevOps e ambientes corporativos.</p>
-          <ul class="chip-list" aria-label="Stack principal">
-            <li>Angular</li><li>Spring Boot</li><li>Azure</li><li>PostgreSQL</li><li>DevOps</li>
-          </ul>
+          <ul class="chip-list" aria-label="Stack principal"><li>Angular</li><li>Spring Boot</li><li>Azure</li><li>PostgreSQL</li><li>DevOps</li></ul>
           <div class="hero-cta">
             <a class="btn btn-primary" href="#projetos">Ver Projetos</a>
             <a class="btn btn-ghost" href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -72,19 +59,91 @@
       <div class="container panel">
         <h2>Tecnologias</h2>
         <div class="tech-grid">
-          <article class="tech-card">Angular</article><article class="tech-card">TypeScript</article><article class="tech-card">Java</article>
-          <article class="tech-card">Spring Boot</article><article class="tech-card">PostgreSQL</article><article class="tech-card">Azure</article>
-          <article class="tech-card">Docker</article><article class="tech-card">Git</article><article class="tech-card">Linux</article>
-          <article class="tech-card">Azure DevOps</article><article class="tech-card">GitHub</article><article class="tech-card">REST APIs</article>
+          <article class="tech-card">Angular</article><article class="tech-card">TypeScript</article><article class="tech-card">Java</article><article class="tech-card">Spring Boot</article><article class="tech-card">PostgreSQL</article><article class="tech-card">Azure</article><article class="tech-card">Docker</article><article class="tech-card">Git</article><article class="tech-card">Linux</article><article class="tech-card">Azure DevOps</article><article class="tech-card">GitHub</article><article class="tech-card">JWT / REST APIs</article>
         </div>
       </div>
     </section>
 
-    <section id="projetos" class="section"><div class="container panel"><h2>Projetos</h2></div></section>
-    <section id="sobre" class="section"><div class="container panel"><h2>Sobre Mim</h2></div></section>
-    <section id="experiencia" class="section"><div class="container panel"><h2>Experiência</h2></div></section>
-    <section id="certificacoes" class="section"><div class="container panel"><h2>Certificações</h2></div></section>
-    <section id="github" class="section"><div class="container panel"><h2>GitHub Stats</h2></div></section>
+    <section id="projetos" class="section">
+      <div class="container panel">
+        <h2>Projetos em Destaque</h2>
+        <div class="cards-grid">
+          <article class="project-card">
+            <h3>FinanP Family</h3>
+            <p>Sistema full stack para gestão financeira familiar com autenticação, controle de transações, cartões, compras parceladas e dashboard financeiro.</p>
+            <ul class="tag-list"><li>Frontend Web</li><li>Spring Boot</li><li>PostgreSQL</li><li>JWT</li><li>Vercel</li><li>Render</li><li>Neon</li></ul>
+            <div class="card-actions">
+              <a class="btn btn-ghost" href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+              <button class="btn btn-ghost" type="button" disabled aria-disabled="true">Ver demo</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>API REST Spring Boot</h3>
+            <p>API REST com autenticação JWT, PostgreSQL, Flyway, validações e arquitetura em camadas para cenários corporativos.</p>
+            <ul class="tag-list"><li>Java</li><li>Spring Boot</li><li>PostgreSQL</li><li>JWT</li><li>Flyway</li></ul>
+            <div class="card-actions"><a class="btn btn-ghost" href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">Ver repositório</a></div>
+          </article>
+          <article class="project-card">
+            <h3>Angular Enterprise App</h3>
+            <p>Aplicação Angular com arquitetura modular, guards, interceptors, serviços, integração REST e boas práticas corporativas.</p>
+            <ul class="tag-list"><li>Angular</li><li>TypeScript</li><li>REST APIs</li><li>Arquitetura Modular</li></ul>
+            <div class="card-actions"><a class="btn btn-ghost" href="https://github.com/fagnerparreira" target="_blank" rel="noopener noreferrer">Ver repositório</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container panel two-col">
+        <div>
+          <h2>Sobre Mim</h2>
+          <p class="body-copy">Sou profissional de TI com experiência em infraestrutura, operações, monitoramento NOC, desenvolvimento full stack e cloud. Tenho vivência com ambientes corporativos, resposta a incidentes, integração entre frontend/backend e entrega de soluções web com foco em estabilidade, segurança e melhoria contínua.</p>
+        </div>
+        <div class="mini-stats">
+          <article><strong>+3</strong><span>Anos de experiência</span></article>
+          <article><strong>+20</strong><span>Projetos concluídos</span></article>
+          <article><strong>7</strong><span>Certificações</span></article>
+          <article><strong>100%</strong><span>Foco em evolução</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="container panel">
+        <h2>Experiência</h2>
+        <div class="timeline">
+          <article><h3>Positivo S+ — Analista de TI / Operações / NOC</h3><p>Monitoramento, análise de incidentes, resposta operacional e sustentação de ambientes críticos.</p></article>
+          <article><h3>Desenvolvedor Full Stack — Angular, Java, APIs REST, PostgreSQL</h3><p>Entrega de aplicações web e serviços backend com foco em performance, segurança e manutenção.</p></article>
+          <article><h3>Infraestrutura, suporte e manutenção</h3><p>Experiência prática com Linux, automação, troubleshooting e melhoria contínua de processos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificacoes" class="section">
+      <div class="container panel">
+        <h2>Certificações</h2>
+        <div class="cards-grid certs">
+          <article class="cert-card">Microsoft Azure Administrator AZ-104</article>
+          <article class="cert-card">ITIL 4 Foundation</article>
+          <article class="cert-card">Professional Scrum Master I</article>
+          <article class="cert-card">Oracle Cloud Infrastructure Foundations</article>
+          <article class="cert-card">ISO 27001</article>
+          <article class="cert-card">ISO 20000</article>
+          <article class="cert-card">ISO 9001</article>
+        </div>
+      </div>
+    </section>
+
+    <section id="github" class="section">
+      <div class="container panel">
+        <h2>GitHub Stats</h2>
+        <div class="cards-grid github-cards">
+          <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=fagnerparreira&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000" alt="GitHub stats de Fágner Nogueira Parreira">
+          <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fagnerparreira&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=00000000" alt="Linguagens mais usadas no GitHub">
+          <img loading="lazy" src="https://streak-stats.demolab.com?user=fagnerparreira&theme=highcontrast&hide_border=true&background=00000000&ring=00ff66&currStreakLabel=00ff66" alt="GitHub streak de Fágner Nogueira Parreira">
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer id="contato" class="site-footer">
